@@ -1,0 +1,13 @@
+rootProject.name = 'ifrvmobi01'
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+//include ':react-native-sqlite-2'
+//project(':react-native-sqlite-2').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sqlite-2/android')
+
+include ':react-native-sqlite-storage'
+project(':react-native-sqlite-storage').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sqlite-storage/src/android')
+
+include ':react-native-whc-loading'
+project(':react-native-whc-loading').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-whc-loading')
+
+include ':app'

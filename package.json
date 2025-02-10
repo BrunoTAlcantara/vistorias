@@ -1,0 +1,34 @@
+{
+  "name": "ifrvmobi01",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apisauce": "^1.0.2",
+    "moment": "^2.24.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-camera": "^1.11.1",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal": "^7.0.2",
+    "react-native-sqlite-2": "^1.7.0",
+    "react-native-sqlite-storage": "^3.3.9",
+    "react-native-whc-loading": "^1.0.3",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.3.1",
+    "reactotron": "^0.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
